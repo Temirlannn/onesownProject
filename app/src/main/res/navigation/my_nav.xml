@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/playlistsFragment">
+
+    <fragment
+        android:id="@+id/playlistsFragment"
+        android:name="com.example.ui.playlists_list.PlaylistsFragment"
+        android:label="playlists_fragment"
+        tools:layout="@layout/playlists_fragment" >
+        <action
+            android:id="@+id/action_playlistsFragment_to_specPlaylistFragment"
+            app:destination="@id/specPlaylistFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/specPlaylistFragment"
+        android:name="com.example.ui.playlist.SpecPlaylistFragment"
+        android:label="spec_playlist_fragment"
+        tools:layout="@layout/spec_playlist_fragment" >
+        <argument
+            android:name="item"
+            app:argType="com.example.model.Items"
+            app:nullable="true" />
+    </fragment>
+
+</navigation>

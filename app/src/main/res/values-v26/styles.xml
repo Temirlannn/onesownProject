@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="desc_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero_margin</item>
+        <item name="android:layout_marginHorizontal">@dimen/page_margin</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:maxLines">5</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="title_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero_margin</item>
+        <item name="android:paddingHorizontal">@dimen/middle_margin</item>
+        <item name="android:paddingTop">@dimen/margin_ten</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:fontFamily">@font/fjalla_one</item>
+        <item name="android:textSize">@dimen/big_marginsp</item>
+    </style>
+
+    <style name="playlist_title_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:paddingHorizontal">@dimen/fab_margin</item>
+        <item name="android:paddingVertical">@dimen/middle_margin</item>
+        <item name="android:textSize">@dimen/big_marginsp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:fontFamily">@font/fjalla_one</item>
+    </style>
+
+    <style name="playlist_desc_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:paddingHorizontal">@dimen/fab_margin</item>
+        <item name="android:textColor">@color/desc_text_color</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+
+</resources>
