@@ -8,5 +8,4 @@ val koinModules= listOf(
     remoteDataSourceModule,
     viewModules,
     repoModules,
-
 )
